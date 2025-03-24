@@ -329,8 +329,8 @@ button {
 
   .rootbeer {
     position: absolute;
-    top: 19.2em;
-    left: 55em;
+    top: 15.2em;
+    left: 56em;
     padding: 2em;
     padding-top: 8px;
     display: flex;
@@ -339,11 +339,17 @@ button {
     h1{
       font-weight: 100;
       margin: 0;
-      font-size: 4em;
+      font-size: 5em;
       line-height: 90%;
+      color: #e7e7e7;
+      text-shadow: 1px 1px 5px #3b3b3b;
     }
     span{
-      font-size: 1.4em;
+      font-size: 1.2em;
+      margin-top: 0.5em;
+    }
+    button{
+      margin-top: 1em;
     }
   }
 }
@@ -677,18 +683,29 @@ button {
     align-items: center;
     .leftSlim{
       height: 100%;
+      position: relative;
+      .barz{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #d8d8d8;
+        height: 120em;
+        width: 2px;
+      }
       .left{
         height: 100%;
+        padding-top: 2em;
         ul{
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          border-right: solid #d8d8d8 2px;
+          // border-right: solid #d8d8d8 2px;
           padding: 5px 0;
           padding-top: 6px;
           padding-bottom: 3em;
           gap: 3px;
           font-size: 1.2em;
+          height: 100%;
 
           li{
             font-weight: 100;
@@ -697,6 +714,7 @@ button {
             padding-right: 6em;
             text-align: left;
             display: flex;
+            
             &:hover{
               background: #ebebeb;
             }
