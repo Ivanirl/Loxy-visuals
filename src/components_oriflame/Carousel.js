@@ -1,4 +1,4 @@
-import herobiggy from "../Resources/Screenshot (141).png";
+import herobiggy from "../Resources/Jor-DSC00689-Edit.jpg";
 
 export default function Carousel() {
   return (
