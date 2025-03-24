@@ -319,6 +319,7 @@ button {
   max-height: min-content;
   img {
     width: 100%;
+    height: 50em;
   }
   button {
     @include signupbutton;
@@ -327,9 +328,8 @@ button {
 
   .rootbeer {
     position: absolute;
-    bottom: 7.2em;
+    top: 7.2em;
     left: 65em;
-    background: #ebb0c6;
     padding: 2em;
     padding-top: 8px;
   }
