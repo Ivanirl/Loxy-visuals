@@ -6,7 +6,7 @@ export default function Banner() {
   return (
     <div className={banner? "noshow" : "banner"}>
       <div className="cont">
-        <span>Enjoy amazing benefits and more with Oriflame</span>
+        <span>Enjoy a 5% discount when you make an appointment online!</span>
         <button
           onClick={() => {
            closebanner(!banner)
