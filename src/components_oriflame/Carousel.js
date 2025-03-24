@@ -6,7 +6,7 @@ export default function Carousel() {
       <img src={herobiggy} />
       <div className="rootbeer">
         {" "}
-          <h1>Welcome and some other shit</h1>
+          <h1>Welcome <br></br>and<br></br> some other shit!</h1>
           <span>Some filller text about our mission and stuff.</span>
           <button className="themebutton1">BOOK A CALL NOW</button>
         
