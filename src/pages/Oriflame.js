@@ -76,33 +76,44 @@ export default function () {
         <Carousel />
         <section className="wnsection">
           <div className="header">
-            <h1>What's new</h1>
-            <button>VIEW ALL</button>
+            <h1>Section One</h1>
+            <button>VIEW MORE</button>
           </div>
           <div className="showcase">
             <div className="imgCont">
               <img src={head} />
               <button>GET STARTED</button>
             </div>
-            <div className="products">
-              <CardA />
-              <CardA />
-              <CardA />
+            <div className="imgCont">
+              <img src={head} />
+              <button>GET STARTED</button>
+            </div>            
+          </div>
+          <div className="showcase">
+            <div className="imgCont">
+              <img src={head} />
+              <button>GET STARTED</button>
             </div>
+            <div className="imgCont">
+              <img src={head} />
+              <button>GET STARTED</button>
+            </div>            
           </div>
         </section>
         <section className="wnsection horsy">
           <div className="bgcircle"></div>
           <div className="header">
-            <h1>Best Offers</h1>
-            <button>VIEW OFFER</button>
+            <h1>Section Two</h1>
+            <button>VIEW MORE</button>
           </div>
           <div className="showcase">
-            <div className="products">
-              <CardA />
-              <CardA />
-              <CardA />
-              <CardA />
+            <div className="imgCont">
+              <img src={head} />
+              <button>SHOP NOW</button>
+            </div>
+            <div className="imgCont">
+              <img src={head} />
+              <button>SHOP NOW</button>
             </div>
             <div className="imgCont">
               <img src={head} />
