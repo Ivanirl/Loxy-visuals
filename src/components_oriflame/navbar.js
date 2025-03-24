@@ -89,10 +89,7 @@ function NavBar() {
               <img src={Logo} className="logoimage" alt="logo image" />
             </Link>
           </div>
-          <div className="getstarted">
-            <div className="seperator"></div>
-            <input placeholder="Search"></input>
-          </div>
+
           <ul className="closedNav" id="nav-bubble">
             <li className="bubble-close">
               <button
