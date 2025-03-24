@@ -40,7 +40,7 @@ function NavBar() {
     <div className={showModal? "scrollo Nav":"Nav"} id={scrolled ? "scrollo" : ""}>
       <div className="container">
         <div className="rightboy">
-          <button
+        <button
             className="mens"
             onClick={() => {
               setMenuha(!menuha);
@@ -89,6 +89,7 @@ function NavBar() {
               <img src={Logo} className="logoimage" alt="logo image" />
             </Link>
           </div>
+
 
           <ul className="closedNav" id="nav-bubble">
             <li className="bubble-close">

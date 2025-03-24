@@ -111,28 +111,28 @@ a {
     font-size: 1.3em;
   }
 
-  input {
-    font-size: 1.2em;
-    background: #c7c7c7;
-    opacity: 0.6;
-    text-align: left;
-    border-radius: 17px;
-    height: 2em;
-    border: none;
-    width: 50em;
-    margin: 6px 20px;
-    padding: 1.4em;
+  // input {
+  //   font-size: 1.2em;
+  //   background: #c7c7c7;
+  //   opacity: 0.6;
+  //   text-align: left;
+  //   border-radius: 17px;
+  //   height: 2em;
+  //   border: none;
+  //   width: 50em;
+  //   margin: 6px 20px;
+  //   padding: 1.4em;
 
-    &:hover {
-      opacity: 0.8;
-    }
+  //   &:hover {
+  //     opacity: 0.8;
+  //   }
 
-    &:focus {
-      opacity: 0.8;
-      outline: none;
-      box-shadow: 2px 2px 7px #8f8f8f;
-    }
-  }
+  //   &:focus {
+  //     opacity: 0.8;
+  //     outline: none;
+  //     box-shadow: 2px 2px 7px #8f8f8f;
+  //   }
+  // }
 
   .container {
     display: flex;
@@ -144,8 +144,8 @@ a {
     .rightboy {
       display: flex;
       justify-content: space-between;
-      gap: 0;
       align-items: center;
+      width: 100%;
 
       .sololink {
         font-weight: 100;
@@ -325,6 +325,7 @@ button {
     @include signupbutton;
     scale: 1;
   }
+
 
   .rootbeer {
     position: absolute;

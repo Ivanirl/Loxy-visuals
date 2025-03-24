@@ -57,26 +57,6 @@ a {
 .Nav .olodo {
   font-size: 1.3em;
 }
-.Nav input {
-  font-size: 1.2em;
-  background: #c7c7c7;
-  opacity: 0.6;
-  text-align: left;
-  border-radius: 17px;
-  height: 2em;
-  border: none;
-  width: 50em;
-  margin: 6px 20px;
-  padding: 1.4em;
-}
-.Nav input:hover {
-  opacity: 0.8;
-}
-.Nav input:focus {
-  opacity: 0.8;
-  outline: none;
-  box-shadow: 2px 2px 7px #8f8f8f;
-}
 .Nav .container {
   display: flex;
   justify-content: space-between;
@@ -87,8 +67,8 @@ a {
 .Nav .container .rightboy {
   display: flex;
   justify-content: space-between;
-  gap: 0;
   align-items: center;
+  width: 100%;
 }
 .Nav .container .rightboy .sololink {
   font-weight: 100;
