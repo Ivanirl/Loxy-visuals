@@ -186,62 +186,51 @@ function NavBar() {
               <ul>
                 <li>
                   <div className="bar"></div>
-                  <span>Beauty Routines</span>
-                </li>
-                <li>
-                  <div className="bar"></div>
-                  <span>eCatalogue</span>
-                </li>
-                <li>
-                  <div className="bar"></div>
-                  <span>Local Inspiration</span>
-                </li>
-                <li>
-                  <div className="bar"></div>
-                  <span>Nutrition</span>
+                  <span>Category 1</span>
                 </li>
                 <li className="colored skyblue">
                   <div className="bar"></div>
-                  <span>Skin Care</span>
+                  <span>Category 2</span>
                 </li>
                 <li className="colored lightpink">
                   <div className="bar"></div>
-                  <span>Make-Up</span>
+                  <span>Category 3</span>
                 </li>
                 <li className="colored ashy">
                   <div className="bar"></div>
-                  <span>Fragrance</span>
+                  <span>Category 4</span>
                 </li>
                 <li className="colored darkblue">
                   <div className="bar"></div>
-                  <span>Bath and Body</span>
+                  <span>Category 5</span>
                 </li>
                 <li className="colored yellow">
                   <div className="bar"></div>
-                  <span>Hair</span>
+                  <span>Category 6</span>
                 </li>
                 <li className="colored purple">
                   <div className="bar"></div>
-                  <span>Wellness</span>
+                  <span>Category 7</span>
                 </li>
                 <li className="colored darkgreen">
                   <div className="bar"></div>
-                  <span>Men</span>
+                  <span>Category 8</span>
                 </li>
                 <li className="colored lightblue">
                   <div className="bar"></div>
-                  <span>Kids and Baby</span>
+                  <span>Category 9</span>
                 </li>
                 <li>
                   <div className="bar"></div>
-                  <span>New Products</span>
+                  <span>Category 10</span>
                 </li>
                 <li>
                   <div className="bar"></div>
-                  <span>Sample Shop</span>
+                  <span>Category 11</span>
                 </li>
               </ul>
             </div>
+            <div className="barz"></div>
           </section>
           <section className="pseudoLoad">
             <Nothing />
