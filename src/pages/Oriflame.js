@@ -9,8 +9,8 @@ import rule6 from "../Resources/rule6.png";
 
 import NavBar from "../components_oriflame/navbar";
 import Banner from "../components_oriflame/Banner";
-//import Carousel from "../components_oriflame/Carousel";
-import LinkBar from "../components_oriflame/Category_links";
+import Carousel from "../components_oriflame/Carousel";
+//import LinkBar from "../components_oriflame/Category_links";
 import CardA from "../components_oriflame/productcardA";
 import Split from "../components_oriflame/SplitBanner";
 import News from "../components_oriflame/ArticleThumbnail";
@@ -73,7 +73,7 @@ export default function () {
         className="oho"
       >
         <Banner />
-        <LinkBar />
+        <Carousel />
         <section className="wnsection">
           <div className="header">
             <h1>What's new</h1>
