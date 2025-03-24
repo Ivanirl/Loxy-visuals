@@ -278,10 +278,21 @@ button {
 }
 .BigCaro .rootbeer {
   position: absolute;
-  bottom: 12.2em;
-  left: 65em;
+  top: 19.2em;
+  left: 55em;
   padding: 2em;
   padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.BigCaro .rootbeer h1 {
+  font-weight: 100;
+  margin: 0;
+  font-size: 4em;
+  line-height: 90%;
+}
+.BigCaro .rootbeer span {
+  font-size: 1.4em;
 }
 
 .LinkBar {
