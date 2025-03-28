@@ -10,7 +10,7 @@ import DefaultLayout from "./components_oriflame/Layout";
 
 import Filler from "./pages/filler";
 import Filler2 from "./pages/filler2";
-import LandingPage from "./pages/Landing page";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   const location = useLocation()
