@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Logo from "../Resources/Oriflame_logo.png";
+import Logo from "../Resources/Logothree.jpg";
 import { Modal } from "react-overlays";
 import { motion } from "framer-motion";
 import Nothing from "../components_oriflame/empty";
@@ -143,27 +143,7 @@ function NavBar() {
                   }
                 }}
               >
-                <span className="olodo">SIGN IN</span>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/filler2"
-                className={
-                  activeLink === "/filler2"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => {
-                  if (window.screenX < 531) {
-                    onUpdateActiveLink("/filler2");
-                  } else {
-                    onUpdateActiveLink("/filler2");
-                    setMenuha(!menuha);
-                  }
-                }}
-              >
-                <img className="bag" alt="bag" src={Bag}/>
+                <span className="olodo">Contact us</span>
               </Link>
             </li>
           </ul>
