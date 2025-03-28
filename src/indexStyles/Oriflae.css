@@ -80,8 +80,9 @@ a {
   align-items: center;
 }
 .Nav .container .rightboy .logo .logoimage {
-  width: 10em;
-  zoom: 1.5;
+  height: 3em;
+  zoom: 1.3;
+  margin: 0.7em 0;
 }
 .Nav .container .closedNav {
   cursor: pointer;
@@ -193,7 +194,7 @@ button {
 }
 
 .oho {
-  padding-top: 6em;
+  padding-top: 7.1em;
   background: #ffffff;
 }
 
@@ -935,6 +936,29 @@ button {
   background: none;
 }
 
+.picturelayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+}
+.picturelayout img {
+  width: 14em;
+}
+.picturelayout .rowBSS {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.picturelayout .rowBSS .solo img {
+  width: 30em;
+}
+.picturelayout .rowBSS .ditto {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
 @media only screen and (max-width: 1236px) {
   .NavBar {
     padding: 1em 3.1em;
@@ -967,7 +991,7 @@ button {
     align-items: center;
   }
   .NavBar .container .rightboy .logo .logoimage {
-    width: 10em;
+    width: 1em;
   }
   .NavBar .container .closedNav {
     display: none;
