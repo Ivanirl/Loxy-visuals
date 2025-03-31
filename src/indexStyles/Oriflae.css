@@ -279,7 +279,7 @@ button {
 }
 .BigCaro .rootbeer {
   position: absolute;
-  top: 14.2em;
+  top: 12.2em;
   left: 56em;
   padding: 2em;
   padding-top: 8px;
@@ -938,20 +938,29 @@ button {
 
 .picturelayout {
   display: flex;
+  flex-direction: column;
+  gap: 5em;
   justify-content: center;
   align-items: center;
   padding: 4em;
 }
 .picturelayout img {
-  width: 14em;
+  width: 15em;
 }
 .picturelayout .rowBSS {
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
   align-items: center;
 }
 .picturelayout .rowBSS .solo img {
-  width: 30em;
+  height: 38em;
+  width: 50em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.picturelayout .rowBSS .rowy {
+  display: flex;
+  gap: 1em;
 }
 .picturelayout .rowBSS .ditto {
   display: flex;

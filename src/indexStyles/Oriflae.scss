@@ -330,7 +330,7 @@ button {
 
   .rootbeer {
     position: absolute;
-    top: 14.2em;
+    top: 12.2em;
     left: 56em;
     padding: 2em;
     padding-top: 8px;
@@ -925,21 +925,29 @@ li{
 
 .picturelayout{
   display: flex;
+  flex-direction: column;
+  gap: 5em;
   justify-content: center;
   align-items: center;
   padding: 4em;
 
   img{
-    width: 14em;
+    width: 15em;
   }
   .rowBSS{
     display: flex;
-    gap: 1em;
+    gap: 1.5em;
     align-items: center;
     .solo{
       img{
-        width: 30em;
+        height: 38em;
+        width: 50em;
+        object-fit: cover;
       }
+    }
+    .rowy{
+      display: flex;
+      gap: 1em;
     }
     .ditto{
       display: flex;

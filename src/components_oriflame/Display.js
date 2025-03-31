@@ -9,9 +9,50 @@ export default function Display(props){
                 <div className="solo">
                     <img src={first} />
                 </div>
-                <div className="ditto">
-                <img src={first} />
-                <img src={first} />
+                <div className="rowy">
+                    <div className="ditto">
+                        <img src={first} />
+                        <img src={first} />
+                    </div>
+
+                    <div className="ditto">
+                        <img src={first} />
+                        <img src={first} />
+                    </div>
+                </div>
+            </div>
+            <div className="rowBSS"> 
+            {/* one big and two small */}
+                <div className="rowy">
+                    <div className="ditto">
+                        <img src={first} />
+                        <img src={first} />
+                    </div>
+
+                    <div className="ditto">
+                        <img src={first} />
+                        <img src={first} />
+                    </div>
+                </div>
+                <div className="solo">
+                    <img src={first} />
+                </div>
+            </div>
+            <div className="rowBSS"> 
+            {/* one big and two small */}
+                <div className="solo">
+                    <img src={first} />
+                </div>
+                <div className="rowy">
+                    <div className="ditto">
+                        <img src={first} />
+                        <img src={first} />
+                    </div>
+
+                    <div className="ditto">
+                        <img src={first} />
+                        <img src={first} />
+                    </div>
                 </div>
             </div>
         </div>
