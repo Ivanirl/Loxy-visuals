@@ -1,4 +1,4 @@
-import split from "../Resources/peach image.png";
+import split from "../Resources/Jor-DSC00727-Edit.jpg";
 
 export default function Split() {
   return (
@@ -7,9 +7,9 @@ export default function Split() {
       <img src={split} />
       <div className="RightBoy">
         <h1>
-          Energising & Radiance - <span>Enhancing and Hydrating</span>
+          Creating Digital stories<span>One Frame At A Time</span>
         </h1>
-        <button className="themebutton1">SHOP NOW</button>
+        <button className="themebutton1">VIEW MORE</button>
       </div>
     </div>
   );
