@@ -943,24 +943,26 @@ button {
   justify-content: center;
   align-items: center;
   padding: 4em;
+  padding-top: 3em;
 }
 .picturelayout img {
-  width: 15em;
+  width: 17em;
+  border-radius: 10px;
 }
 .picturelayout .rowBSS {
   display: flex;
-  gap: 1.9em;
-  align-items: center;
+  gap: 2.9em;
+  align-items: top;
 }
 .picturelayout .rowBSS .solo img {
   height: 38em;
-  width: 50em;
+  width: 56em;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .picturelayout .rowBSS .rowy {
   display: flex;
-  gap: 1em;
+  gap: 2em;
 }
 .picturelayout .rowBSS .ditto {
   display: flex;
