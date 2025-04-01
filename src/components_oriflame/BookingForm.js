@@ -74,7 +74,7 @@ const BookingForm = () => {
       
       // Send email (this would be handled by your backend)
       await axios.post('/api/send-email', {
-        to: 'your@email.com', // Your business email
+        to: 'Ivanezeh@gmail.com', // Your business email
         subject: `New Booking from ${name}`,
         text: `You have a new booking:
           Name: ${name}
