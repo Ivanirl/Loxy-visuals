@@ -200,14 +200,6 @@ function NavBar() {
                   <div className="bar"></div>
                   <span>Category 9</span>
                 </li>
-                <li>
-                  <div className="bar"></div>
-                  <span>Category 10</span>
-                </li>
-                <li>
-                  <div className="bar"></div>
-                  <span>Category 11</span>
-                </li>
               </ul>
             </div>
             <div className="barz"></div>
