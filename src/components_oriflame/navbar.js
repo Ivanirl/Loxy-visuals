@@ -213,6 +213,7 @@ function NavBar() {
             <div className="barz"></div>
           </section>
           <section className="pseudoLoad">
+            {/* on hover of list components dislay specific image preview for each category. work out logic */}
             <Nothing />
           </section>
         </motion.div>
