@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import axios from 'axios';
-import './BookingForm.css'; // Custom styles
+// import './BookingForm.css'; // Custom styles
 
 const BookingForm = () => {
   const [name, setName] = useState('');
