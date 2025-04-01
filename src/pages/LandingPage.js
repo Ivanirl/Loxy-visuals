@@ -102,28 +102,6 @@ export default function () {
         <section className=" wnsection split">
           <Split />
         </section>
-        <section className="wnsection Bb">
-          <div className="header">
-            <h1>Bath & Body</h1>
-            <button>VIEW ALL</button>
-            <span>
-              Body care means taking care of your body from head to toe and
-              plays an important role when you <br></br>will feel clean,
-              refreshed, healthy and pampered. We offer a comprehensive range of
-              products for <br></br>feet, oral hygiene and body, to meet your
-              daily needs.
-            </span>
-          </div>
-          <div className="showcase">
-            <div className="imgCont">
-              <img src={head} />
-              <button>GET STARTED</button>
-            </div>
-            <div className="products">
-              <CardA />
-            </div>
-          </div>
-        </section>
         <section className="wnsection Bb Be">
           <div className="header">
             <img alt="central" src={beauty} />
