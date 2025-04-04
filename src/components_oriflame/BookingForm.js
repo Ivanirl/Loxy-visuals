@@ -3,6 +3,11 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import axios from 'axios';
 // import './BookingForm.css'; // Custom styles
+// In your React component or API service file
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000';
+
+// Then use this base URL for your API calls
+axios.get(`${API_BASE_URL}/api/bookings/dates`)
 
 const BookingForm = () => {
   const [name, setName] = useState('');
